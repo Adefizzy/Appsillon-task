@@ -2,7 +2,7 @@ import { extendTheme,  type ThemeConfig  } from "@chakra-ui/react";
 import Text from './components/Text';
 import Button from './components/Button';
 import Link from './components/Link';
-import { mode, StyleFunctionProps } from '@chakra-ui/theme-tools'
+import { StyleFunctionProps } from '@chakra-ui/theme-tools'
 import { Dict } from "@chakra-ui/utils";
 
 const config: ThemeConfig = {
@@ -13,8 +13,8 @@ const config: ThemeConfig = {
 const theme = extendTheme({
     config,
     fonts: {
-        heading:  `'Segoe Body',  sans-serif`,
-        body:  `'Segoe Body',  sans-serif`,
+        heading:  `'Inter', sans-serif;`,
+        body:  `'Inter', sans-serif;`,
       },
     colors: {
       brand: {

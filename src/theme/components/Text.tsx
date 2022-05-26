@@ -21,16 +21,25 @@ const Text: ComponentStyleConfig = {
             fontSize: {base: '22px', lg: '1.6vw'},
         },
         '2xl': {
-            fontSize: {base: '33px', lg: '1.8vw'},
+            fontSize: {base: '24px', lg: '1.8vw'},
         },
         '4xl': {
-            fontSize: {base: '55px', lg: '2.5vw'},
+            fontSize: {base: '34px', lg: '2.5vw'},
+        },
+        '5xl': {
+            fontSize: {base: '55px', lg: '3.5vw'},
         }
     },
     variants: {
         colorfulBold: {
             color: 'brand.100',
             fontWeight: '700',
+        },
+        normalBold: {
+            fontWeight: '600',
+        },
+        500: {
+            fontWeight: '500',
         },
         primary: {
             color: 'brand.primary',

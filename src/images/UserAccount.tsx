@@ -1,4 +1,3 @@
-// @flow
 import { useMediaQuery } from '@chakra-ui/react';
 
 type Props = {
@@ -9,8 +8,8 @@ const UserAccount = (props: Props) => {
   return (
     <div>
       <svg
-         width={isLargeScreen ? '1.8vw' : '20'}
-         height={isLargeScreen ? '1.8vw' : '24'}
+         width={isLargeScreen ? '1.5vw' : '20'}
+         height={isLargeScreen ? '1.5vw' : '24'}
         viewBox='0 0 24 24'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'

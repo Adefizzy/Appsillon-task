@@ -43,6 +43,9 @@ const Link : ComponentStyleConfig = {
           color: 'brand.primary',
           fontWeight:'600',
 
+      },
+      bold: {
+        fontWeight:'500',
       }
     }
 }
