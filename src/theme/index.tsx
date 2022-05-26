@@ -6,8 +6,8 @@ import { StyleFunctionProps } from '@chakra-ui/theme-tools'
 import { Dict } from "@chakra-ui/utils";
 
 const config: ThemeConfig = {
-  initialColorMode: 'dark',
-  useSystemColorMode: false,
+  initialColorMode: 'light',
+  useSystemColorMode: true,
 }
 
 const theme = extendTheme({
